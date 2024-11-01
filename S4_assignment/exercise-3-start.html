@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        height: 100vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    .content {
+        flex-grow: 7;
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
+    .header {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        border-radius: 0.5rem;
+        padding-left: 1em;
+        font-weight: bold;
+        background-color: #1e90ff;
+        box-shadow: inset -5px -5px 5px #0077ea, inset 5px 5px 5px #0077ea;
+        padding: 30px;
+    }
+    .main {
+        background-color: #3cb371;
+        width: 70vw;
+        border-radius: 0.5rem;
+        box-shadow: inset -5px -5px 5px #2f8d59 , inset 5px 5px 5px #2f8d59;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;   
+    }
+    .text {
+        padding-top: 2em;
+        padding-left: 1em;
+    }
+    .box {
+        display: flex;
+        flex-direction: row;
+        border-radius: 0.5rem;
+        gap: 1em;
+        flex-wrap: wrap;
+        padding-top: 3em;
+        padding-left: 2em;
+    }
+    .item{
+        width: 90px;
+        height: 90px;
+        border-radius: 0.5rem;
+        background-color: #2f8d59;
+        box-shadow: inset -5px -5px 5px #226741, inset 5px 5px 5px #226741 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sidebar {
+        background-color: #ff6347;
+        width: 30vw;
+        border-radius: 0.5rem;
+        box-shadow: inset -5px -5px 5px #e02200, inset 5px 5px 5px #e02200 ;
+        font-weight: bold;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        padding-left: 1em;
+        padding-top: 2em;
+    }
+    .footer {
+        background-color: #4169e1;
+        padding: 30px;
+        border-radius: 0.5rem;
+        box-shadow: inset -5px -5px 5px #1d44b8 , inset 5px 5px 5px #1d44b8;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        font-weight: bold;
+        padding-left: 1em;
+    }
+ </style>
+<body>
+    <div class = "container">
+        <section class = "header">header</section>
+        <div class = "content">
+            <section class = "main">
+                <div class = "text">main</div>
+                <div class = "box">
+                    <div class = "item">item</div>
+                    <div class = "item">item</div>
+                    <div class = "item">item</div>
+                    <div class = "item">item</div>
+                    <div class = "item">item</div>
+                    <div class = "item">item</div>
+                    <div class = "item">item</div>
+                    <div class = "item">item</div>
+                    <div class = "item">item</div>
+                    <div class = "item">item</div>
+                    <div class = "item">item</div>
+                </div>
+            
+            </section>
+            <section class = "sidebar">sidebar</section>
+        </div>
+        <section class = "footer">footer</section>
+
+    </div>
+    
+</body>
+</html>
